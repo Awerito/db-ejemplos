@@ -11,10 +11,13 @@ donde corresponda.
 ### **Instrucciones:**
 1. **Identifica las entidades y sus atributos** a partir del enunciado.
 2. **Determina la cardinalidad** de cada relación (1:1, 1:N o N:N).
-3. **Dibuja el diagrama relacional** aplicando las reglas:  
-   - **1:1** → Clave foránea con restricción UNIQUE en una de las tablas.  
-   - **1:N** → Clave foránea en la tabla del lado "N".  
-   - **N:N** → Tabla intermedia con clave primaria compuesta por las claves
+3. **Dibuja el diagrama relacional** aplicando las reglas:
+
+   - **1:1**: Clave foránea con restricción UNIQUE en una de las tablas.
+
+   - **1:N**: Clave foránea en la tabla del lado "N".
+
+   - **N:N**: Tabla intermedia con clave primaria compuesta por las claves
      foráneas de ambas entidades.
 4. En el diagrama, indica claramente: **PK**, **FK**, y las relaciones entre
    tablas.

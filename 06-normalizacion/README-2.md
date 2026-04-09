@@ -1,6 +1,6 @@
 ## **Actividad: Normalización Avanzada y Modelado en Pony Editor**
 
-⏳ **Duración estimada: 2.5 horas**
+⏳ **Duración estimada: 2.5 horas**  
 🎯 **Objetivo:** Identificar violaciones en las relaciones proporcionadas,
 normalizar hasta **3FN**, y modelar el resultado final en
 [Pony Editor](https://editor.ponyorm.com/).
@@ -33,9 +33,9 @@ Una clínica dental registra las citas de sus pacientes en una sola tabla.
 | D103         | Roberto Solís   | P110         | Juan Morales    | 2025-10-15  | 18:00     | C13             |
 
 **Dependencias funcionales:**
-- {No. Dentista, Fecha Cita, Hora Cita} → No. Paciente
-- No. Dentista → Nombre Dentista
-- No. Paciente → Nombre Paciente
+- {No. Dentista, Fecha Cita, Hora Cita} → No. Paciente  
+- No. Dentista → Nombre Dentista  
+- No. Paciente → Nombre Paciente  
 - {No. Dentista, Fecha Cita} → No. Consultorio
 
 > **Pista:** La clave primaria es compuesta. Analiza cuáles atributos dependen
@@ -79,10 +79,10 @@ Una agencia de empleo temporal asigna empleados a hoteles mediante contratos.
 | 71267000C  | C1026        | 32           | Sara Blanco     | H25       | Guadalajara  | 5 estrellas     |
 
 **Dependencias funcionales:**
-- {NIF, No. Contrato} → Horas/Semana
-- NIF → Nombre Empleado
-- No. Contrato → No. Hotel, Ciudad Hotel, Categoría Hotel
-- No. Hotel → Ciudad Hotel, Categoría Hotel
+- {NIF, No. Contrato} → Horas/Semana  
+- NIF → Nombre Empleado  
+- No. Contrato → No. Hotel, Ciudad Hotel, Categoría Hotel  
+- No. Hotel → Ciudad Hotel, Categoría Hotel  
 
 > **Pista:** Hay dependencias parciales Y transitivas. Identifica ambas.
 
@@ -133,8 +133,8 @@ una sola dirección.
 | El Retorno del Jedi | 1983 | 131      | Color | Fox     | Hollywood          | Harrison Ford    | Han Solo      |
 
 **Dependencias funcionales:**
-- {Título, Año} → Duración, Tipo, Estudio
-- Estudio → Dirección Estudio
+- {Título, Año} → Duración, Tipo, Estudio  
+- Estudio → Dirección Estudio  
 - {Título, Año, Actor} → Rol
 
 > **Pista:** La clave candidata es {Título, Año, Actor}. Hay dependencias
@@ -188,10 +188,10 @@ departamentos, productos, proveedores y precios en una sola tabla.
 
 **Dependencias funcionales:**
 - Código Producto → Producto, Departamento, Pasillo, Precio, Unidad, Proveedor,
-  Costo, Margen
-- Departamento → Pasillo
+  Costo, Margen  
+- Departamento → Pasillo  
 - Proveedor → (no determina nada por sí solo, un proveedor puede tener
-  múltiples productos)
+  múltiples productos)  
 
 > **Pista:** Identifica qué atributos dependen del producto y cuáles del
 > departamento. ¿Hay dependencias transitivas?
@@ -240,11 +240,11 @@ casas), las materias que cursan y sus calificaciones.
 | 21705678Z  | Ana Torres     | Blvd. Hidalgo 88      | Águilas | Rojo       | Historia     | $400          | 7            | Prof. Vega     | Humanidades     |
 
 **Dependencias funcionales:**
-- Matrícula → Nombre Alumno, Dirección, Casa
-- Casa → Color Casa
-- Materia → Costo Materia, Profesor
-- Profesor → Depto. Profesor
-- {Matrícula, Materia} → Calificación
+- Matrícula → Nombre Alumno, Dirección, Casa  
+- Casa → Color Casa  
+- Materia → Costo Materia, Profesor  
+- Profesor → Depto. Profesor  
+- {Matrícula, Materia} → Calificación  
 
 > **Pista:** Este ejercicio tiene múltiples niveles de dependencias transitivas.
 > Identifica la cadena: Materia → Profesor → Depto. Profesor.
@@ -295,10 +295,10 @@ artista puede tener múltiples obras. Una misma obra puede venderse varias veces
 | CL03        | Sofía Delgado     | 555-111-2233 | Blvd. Revolución 78    | Guadalajara| A15         | Diego Fuentes     | Paisaje Nocturno           | 2025-08-05  | 2000         | Acuarela  |
 
 **Dependencias funcionales:**
-- No. Cliente → Nombre Cliente, Teléfono, Dirección Cliente, Ciudad
-- No. Artista → Nombre Artista
-- {No. Artista, Título Obra} → Técnica
-- {No. Cliente, No. Artista, Título Obra, Fecha Venta} → Precio Venta
+- No. Cliente → Nombre Cliente, Teléfono, Dirección Cliente, Ciudad  
+- No. Artista → Nombre Artista  
+- {No. Artista, Título Obra} → Técnica  
+- {No. Cliente, No. Artista, Título Obra, Fecha Venta} → Precio Venta  
 
 > **Pista:** La clave primaria es bastante grande. Piensa en qué entidades
 > puedes separar para reducir la redundancia. Nota que "Risa con Dientes" se
@@ -345,15 +345,13 @@ Para cada ejercicio entrega:
 💡 **Consejos:**
 - En cada paso, pregúntate: *¿todos los atributos no clave dependen de TODA la
   clave primaria?* (2FN) y *¿algún atributo no clave depende de otro atributo
-  no clave?* (3FN).
-- En Pony Editor, usa las relaciones para representar las claves foráneas.
-- Los ejercicios 4 y 5 son los más complejos. Si te atoras, empieza
-  identificando las entidades que se repiten.
+  no clave?* (3FN).  
+- En Pony Editor, usa las relaciones para representar las claves foráneas.  
 
 ---
 
-**Fuentes de referencia:**
-- [Normalization Exercises - CS 374, JMU](https://w3.cs.jmu.edu/cs374/s24/labs/normalization/)
-- [Database Normalization Examples - COMP 440](https://mebrahimii.github.io/comp440-fall2020/lecture/week_13/DB%20Normalization%20Example.pdf)
-- [Ejercicio de Normalización - Universidad de Granada](https://ccia.ugr.es/~cdemesa/pbd/docs/ejercicio_normalizacion_propuesto.pdf)
-- [DATABASE DESIGN: Normalization Exercises](https://www.javaguicodexample.com/normalizationexerciseanswer.pdf)
+**Fuentes de referencia:**  
+- [Normalization Exercises - CS 374, JMU](https://w3.cs.jmu.edu/cs374/s24/labs/normalization/)  
+- [Database Normalization Examples - COMP 440](https://mebrahimii.github.io/comp440-fall2020/lecture/week_13/DB%20Normalization%20Example.pdf)  
+- [Ejercicio de Normalización - Universidad de Granada](https://ccia.ugr.es/~cdemesa/pbd/docs/ejercicio_normalizacion_propuesto.pdf)  
+- [DATABASE DESIGN: Normalization Exercises](https://www.javaguicodexample.com/normalizationexerciseanswer.pdf)  

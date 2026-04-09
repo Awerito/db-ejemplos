@@ -329,19 +329,6 @@ El esquema ya está en 3FN.
 
 ---
 
-### **Entregables**
-
-Para cada ejercicio entrega:
-1. **Identificación de violaciones** — lista las violaciones de 1FN, 2FN y 3FN.
-2. **Proceso de normalización** — muestra las tablas resultantes en cada paso
-   (1FN → 2FN → 3FN).
-3. **Esquema final en 3FN** — las tablas finales con sus claves primarias (PK)
-   y claves foráneas (FK) claramente indicadas.
-4. **Modelo en Pony Editor** — captura de pantalla del diagrama final modelado
-   en [Pony Editor](https://editor.ponyorm.com/).
-
----
-
 💡 **Consejos:**
 - En cada paso, pregúntate: *¿todos los atributos no clave dependen de TODA la
   clave primaria?* (2FN) y *¿algún atributo no clave depende de otro atributo

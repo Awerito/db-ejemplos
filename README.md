@@ -12,13 +12,15 @@ Ejemplos, ejercicios y actividades para el curso de Bases de Datos.
 | 04 | [Modelo Relacional](04-modelo-relacional/) | Estructura de tablas |
 | 05 | [MER → MR](05-mer-mr/) | Transformación de modelos |
 | 06 | [Normalización](06-normalizacion/) | Optimización de esquemas |
-| 07 | [SQL Intro](07-sql-intro/) | Introducción a SQL |
-| 08 | [Transacciones](08-transacciones/) | Control de transacciones |
-| 09 | [Migrations](09-migrations/) | Versionado de esquemas |
-| 10 | [Triggers y Funciones](10-triggers-funciones/) | Programación en BD |
-| 11 | [ORM](11-orm/) | Object-Relational Mapping |
-| 12 | [Backend](12-backend/) | Integración con aplicaciones |
-| 13 | [ORM en Aplicación](13-orm-aplicacion/) | Uso práctico de ORM |
+| 07 | [SQL Creación de Tablas](07-sql-creacion-tablas/) | DDL: CREATE TABLE del modelo académico |
+| 08 | [SQL CRUD](08-sql-crud/) | SELECT / UPDATE / DELETE / VIEW sobre el modelo académico |
+| 09 | [SQL Biblioteca](09-sql-biblioteca/) | Actividad SQL sobre modelo biblioteca |
+| 10 | [Transacciones](10-transacciones/) | Control de transacciones |
+| 11 | [Migrations](11-migrations/) | Versionado de esquemas |
+| 12 | [Triggers y Funciones](12-triggers-funciones/) | Programación en BD |
+| 13 | [ORM](13-orm/) | Object-Relational Mapping |
+| 14 | [Backend](14-backend/) | Integración con aplicaciones |
+| 15 | [ORM en Aplicación](15-orm-aplicacion/) | Uso práctico de ORM |
 | 99 | [Proyecto Integrador](99-integrador/) | Proyecto final |
 
 ## Estructura

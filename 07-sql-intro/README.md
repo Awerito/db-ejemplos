@@ -13,7 +13,7 @@ vista.
    `curso`, `horario`, `profesor` y `sala` para responder una serie de
 ejercicios que ponen en práctica las operaciones fundamentales de SQL.
 3. Para configurar el ejercicio en tu db usar este script:
-   [alumnos.models.inserts.sql](https://gist.github.com/Awerito/1791cd6fb2cba5efa8804bba234895c6#file-alumnos-model-inserts-sql)
+   [alumnos.models.inserts.sql](https://raw.githubusercontent.com/Awerito/base-de-datos-apuntes/refs/heads/master/07-sql-intro/alumnos.model.inserts.sql)
 
 ### **📋 Instrucciones**
 

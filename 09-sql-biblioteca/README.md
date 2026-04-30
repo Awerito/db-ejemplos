@@ -13,7 +13,7 @@ vista.
    `autor_libro`, `usuario`, `prestamo`, `multa` para responder una serie de
    ejercicios que ponen en práctica las operaciones fundamentales de SQL.  
 3. Para configurar el ejercicio en tu db usar este script:
-   [SQL Modelo de Biblioteca](https://gist.github.com/Awerito/353adc109f00d3ff6b27006ed92d10f4)
+   [SQL Modelo de Biblioteca](https://editor.ponyorm.com/user/Awerito/GestionBiblioteca/designer)
 
 ### **📋 Instrucciones**
 

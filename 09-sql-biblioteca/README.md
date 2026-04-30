@@ -147,28 +147,28 @@ condiciones estén bien definidas.
 ✅ Define una **vista** llamada `vista_global_biblioteca` que integre la
 información de todas las tablas en una consulta consolidada.
 
-```sql
-CREATE VIEW vista_global_biblioteca AS
-SELECT
-  usuario.id AS usuario_id,
-  usuario.nombre AS usuario_nombre,
-  libro.id AS libro_id,
-  libro.titulo AS libro_titulo,
-  autor.nombre AS autor_nombre,
-  categoria.nombre AS categoria_nombre,
-  prestamo.prestamo AS fecha_prestamo,
-  prestamo.devolucion AS fecha_devolucion,
-  prestamo.estado AS estado_prestamo,
-  multa.monto AS monto_multa
-FROM
-  prestamo
-JOIN usuario ON prestamo.usuarios = usuario.id
-JOIN libro ON prestamo.libros = libro.id
-JOIN categoria ON libro.categoria = categoria.id
-JOIN autor_libro ON libro.id = autor_libro.libro
-JOIN autor ON autor_libro.autor = autor.id
-LEFT JOIN multa ON prestamo.usuarios = multa.prestamo_usuarios AND prestamo.libros = multa.prestamo_libros;
-```
+<!-- ```sql -->
+<!-- CREATE VIEW vista_global_biblioteca AS -->
+<!-- SELECT -->
+<!--   usuario.id AS usuario_id, -->
+<!--   usuario.nombre AS usuario_nombre, -->
+<!--   libro.id AS libro_id, -->
+<!--   libro.titulo AS libro_titulo, -->
+<!--   autor.nombre AS autor_nombre, -->
+<!--   categoria.nombre AS categoria_nombre, -->
+<!--   prestamo.prestamo AS fecha_prestamo, -->
+<!--   prestamo.devolucion AS fecha_devolucion, -->
+<!--   prestamo.estado AS estado_prestamo, -->
+<!--   multa.monto AS monto_multa -->
+<!-- FROM -->
+<!--   prestamo -->
+<!-- JOIN usuario ON prestamo.usuarios = usuario.id -->
+<!-- JOIN libro ON prestamo.libros = libro.id -->
+<!-- JOIN categoria ON libro.categoria = categoria.id -->
+<!-- JOIN autor_libro ON libro.id = autor_libro.libro -->
+<!-- JOIN autor ON autor_libro.autor = autor.id -->
+<!-- LEFT JOIN multa ON prestamo.usuarios = multa.prestamo_usuarios AND prestamo.libros = multa.prestamo_libros; -->
+<!-- ``` -->
 
 ---
 

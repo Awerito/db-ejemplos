@@ -15,12 +15,13 @@ Ejemplos, ejercicios y actividades para el curso de Bases de Datos.
 | 07 | [SQL Creación de Tablas](07-sql-creacion-tablas/) | DDL: CREATE TABLE del modelo académico |
 | 08 | [SQL CRUD](08-sql-crud/) | SELECT / UPDATE / DELETE / VIEW sobre el modelo académico |
 | 09 | [SQL Biblioteca](09-sql-biblioteca/) | Actividad SQL sobre modelo biblioteca |
-| 10 | [Transacciones](10-transacciones/) | Control de transacciones |
-| 11 | [Migrations](11-migrations/) | Versionado de esquemas |
-| 12 | [Triggers y Funciones](12-triggers-funciones/) | Programación en BD |
-| 13 | [ORM](13-orm/) | Object-Relational Mapping |
-| 14 | [Backend](14-backend/) | Integración con aplicaciones |
-| 15 | [ORM en Aplicación](15-orm-aplicacion/) | Uso práctico de ORM |
+| 10 | [Álgebra y Cálculo Relacional](10-algebra-calculo-relacional/) | Operadores formales y su traducción a SQL |
+| 11 | [Transacciones](11-transacciones/) | Control de transacciones |
+| 12 | [Migrations](12-migrations/) | Versionado de esquemas |
+| 13 | [Triggers y Funciones](13-triggers-funciones/) | Programación en BD |
+| 14 | [ORM](14-orm/) | Object-Relational Mapping |
+| 15 | [Backend](15-backend/) | Integración con aplicaciones |
+| 16 | [ORM en Aplicación](16-orm-aplicacion/) | Uso práctico de ORM |
 | 99 | [Proyecto Integrador](99-integrador/) | Proyecto final |
 
 ## Estructura

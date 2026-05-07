@@ -40,7 +40,7 @@ Para cada ejercicio entrega:
 
 ---
 
-### **📐 Selección, proyección y unión**
+### **1. Selección, proyección y unión**
 
 ✅ Operadores $\sigma$, $\pi$, $\cup$.
 
@@ -73,7 +73,7 @@ SQL:
 
 ---
 
-### **➖ Diferencia y negación**
+### **2. Diferencia y negación**
 
 ✅ Operador $-$ y patrón equivalente con `LEFT JOIN ... IS NULL`.
 
@@ -116,7 +116,7 @@ SQL:
 
 ---
 
-### **🔁 Autoreferencia con renombrado ($\rho$)**
+### **3. Autoreferencia con renombrado ($\rho$)**
 
 ✅ Operador $\rho$ y comparación de una relación consigo misma.
 
@@ -157,7 +157,7 @@ SQL:
 
 ---
 
-### **➗ División ($\div$)**
+### **4. División ($\div$)**
 
 ✅ Patrón "para todo / NOT EXISTS anidado".
 
@@ -233,7 +233,7 @@ SQL:
 
 ---
 
-### **🏆 Máximo / mínimo sin agregados**
+### **5. Máximo / mínimo sin agregados**
 
 ✅ Truco clásico: "no existe nadie mejor".
 
@@ -263,16 +263,6 @@ SQL:
   );
 -->
 
-
----
-
-### **📝 Entregable**
-
-Un archivo `algebra.md` (o `algebra.sql` con bloques de comentario) que
-contenga, para cada uno de los 12 ejercicios, las tres formas pedidas.
-Las consultas SQL deben ejecutarse sin error sobre tu instancia con los
-datos de prueba.
-
 ---
 
 💬 **Reflexión final**
@@ -287,7 +277,7 @@ datos de prueba.
 
 ---
 
-### **📚 Fuentes**
+### **Fuentes**
 
 - Ramakrishnan, R. & Gehrke, J. *Database Management Systems*, 3rd ed.,
   McGraw-Hill (capítulo 4: "Relational Algebra and Calculus", esquema

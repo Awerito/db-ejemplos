@@ -77,7 +77,7 @@ SQL:
 
 ✅ Operador $-$ y patrón equivalente con `LEFT JOIN ... IS NULL`.
 
-3. Encontrar los **nombres** de marineros que **no** han reservado un
+1. Encontrar los **nombres** de marineros que **no** han reservado un
    bote rojo.
 
 <!--
@@ -98,7 +98,7 @@ SQL (LEFT JOIN ... IS NULL):
   WHERE b.bid IS NULL;
 -->
 
-4. Encontrar los `sid` de marineros con edad mayor a 20 que **no** han
+2. Encontrar los `sid` de marineros con edad mayor a 20 que **no** han
    reservado un bote rojo.
 
 <!--
@@ -120,7 +120,7 @@ SQL:
 
 ✅ Operador $\rho$ y comparación de una relación consigo misma.
 
-5. Encontrar los nombres de marineros que han reservado **al menos dos**
+1. Encontrar los nombres de marineros que han reservado **al menos dos**
    botes distintos.
 
 <!--
@@ -132,7 +132,7 @@ SQL:
   JOIN Reserves r2 ON r2.sid = s.sid AND r2.bid <> r1.bid;
 -->
 
-6. Encontrar los `sid` de marineros cuyo rating es mejor que el de
+2. Encontrar los `sid` de marineros cuyo rating es mejor que el de
    **algún** marinero llamado *Bob*.
 
 <!--
@@ -143,7 +143,7 @@ SQL:
   WHERE s.rating > (SELECT MIN(rating) FROM Sailors WHERE sname = 'Bob');
 -->
 
-7. Encontrar los `sid` de marineros cuyo rating es mejor que el de
+3. Encontrar los `sid` de marineros cuyo rating es mejor que el de
    **todos** los marineros llamados *Bob*.
 
 <!--
@@ -161,7 +161,7 @@ SQL:
 
 ✅ Patrón "para todo / NOT EXISTS anidado".
 
-8. Encontrar los nombres de marineros que han reservado **todos** los
+1. Encontrar los nombres de marineros que han reservado **todos** los
    botes.
 
 <!--
@@ -184,7 +184,7 @@ SQL (HAVING COUNT):
   HAVING COUNT(DISTINCT r.bid) = (SELECT COUNT(*) FROM Boats);
 -->
 
-9. Encontrar los nombres de marineros que han reservado todos los botes
+2. Encontrar los nombres de marineros que han reservado todos los botes
    llamados *BigBoat*.
 
 <!--
@@ -202,7 +202,7 @@ SQL:
   );
 -->
 
-10. Encontrar los nombres de marineros que han reservado **todos** los
+3. Encontrar los nombres de marineros que han reservado **todos** los
     botes que han sido reservados por marineros con menor rating que
     ellos.
 
@@ -237,7 +237,7 @@ SQL:
 
 ✅ Truco clásico: "no existe nadie mejor".
 
-11. Encontrar los `sid` de marineros con el **rating más alto**, sin
+1. Encontrar los `sid` de marineros con el **rating más alto**, sin
     usar `MAX` ni `ORDER BY ... LIMIT`.
 
 <!--
@@ -250,7 +250,7 @@ SQL:
   );
 -->
 
-12. Encontrar el nombre y la edad del marinero **más viejo**, sin usar
+2. Encontrar el nombre y la edad del marinero **más viejo**, sin usar
     `MAX` ni `ORDER BY ... LIMIT`.
 
 <!--

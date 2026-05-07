@@ -143,7 +143,7 @@ Los alias `p, b, a` del SQL se modelan con ρ. Forma compacta sin ρ
 
 Para cada expresión, escribe la consulta SQL equivalente.
 
-6. $\sigma_{src='Chennai' \,\wedge\, dest='New Delhi'}(flight)$
+1. $\sigma_{src='Chennai' \,\wedge\, dest='New Delhi'}(flight)$
 
 <!--
 SQL:
@@ -152,7 +152,7 @@ SQL:
   WHERE src = 'Chennai' AND dest = 'New Delhi';
 -->
 
-7. $\pi_{fid}\bigl(\sigma_{pid=123}(booking) \bowtie \sigma_{dest='Chennai'}(flight)\bigr)$
+2. $\pi_{fid}\bigl(\sigma_{pid=123}(booking) \bowtie \sigma_{dest='Chennai'}(flight)\bigr)$
 
 <!--
 SQL:
@@ -163,7 +163,7 @@ SQL:
     AND f.dest = 'Chennai';
 -->
 
-8. $\pi_{aname}\bigl(agency \bowtie_{agency.acity = passenger.pcity} \sigma_{pid=123}(passenger)\bigr)$
+3. $\pi_{aname}\bigl(agency \bowtie_{agency.acity = passenger.pcity} \sigma_{pid=123}(passenger)\bigr)$
 
    ("agencias que están en la misma ciudad que el pasajero 123")
 
@@ -175,7 +175,7 @@ SQL:
   WHERE p.pid = 123;
 -->
 
-9. $\bigl(\sigma_{fdate='2020-12-01' \wedge time='16:00'}(flight)\bigr)\;\cup\;\bigl(\sigma_{fdate='2020-12-02' \wedge time='16:00'}(flight)\bigr)$
+4. $\bigl(\sigma_{fdate='2020-12-01' \wedge time='16:00'}(flight)\bigr)\;\cup\;\bigl(\sigma_{fdate='2020-12-02' \wedge time='16:00'}(flight)\bigr)$
 
 <!--
 SQL:
@@ -184,7 +184,7 @@ SQL:
   SELECT * FROM flight WHERE fdate = DATE '2020-12-02' AND time = '16:00';
 -->
 
-10. $\pi_{aname}(agency)\;-\;\pi_{aname}\bigl(agency \bowtie \sigma_{pid=123}(booking)\bigr)$
+5. $\pi_{aname}(agency)\;-\;\pi_{aname}\bigl(agency \bowtie \sigma_{pid=123}(booking)\bigr)$
 
     ("agencias en las que el pasajero 123 **no** tiene reservas")
 

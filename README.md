@@ -16,12 +16,13 @@ Ejemplos, ejercicios y actividades para el curso de Bases de Datos.
 | 08 | [SQL CRUD](08-sql-crud/) | SELECT / UPDATE / DELETE / VIEW sobre el modelo académico |
 | 09 | [SQL Biblioteca](09-sql-biblioteca/) | Actividad SQL sobre modelo biblioteca |
 | 10 | [Álgebra y Cálculo Relacional](10-algebra-calculo-relacional/) | Operadores formales y su traducción a SQL |
-| 11 | [Transacciones](11-transacciones/) | Control de transacciones |
-| 12 | [Migrations](12-migrations/) | Versionado de esquemas |
-| 13 | [Triggers y Funciones](13-triggers-funciones/) | Programación en BD |
-| 14 | [ORM](14-orm/) | Object-Relational Mapping |
-| 15 | [Backend](15-backend/) | Integración con aplicaciones |
-| 16 | [ORM en Aplicación](16-orm-aplicacion/) | Uso práctico de ORM |
+| 11 | [SQL ↔ Álgebra Relacional](11-sql-algebra-traducciones/) | Traducción bidireccional entre SQL y álgebra relacional |
+| 12 | [Transacciones](12-transacciones/) | Control de transacciones |
+| 13 | [Migrations](13-migrations/) | Versionado de esquemas |
+| 14 | [Triggers y Funciones](14-triggers-funciones/) | Programación en BD |
+| 15 | [ORM](15-orm/) | Object-Relational Mapping |
+| 16 | [Backend](16-backend/) | Integración con aplicaciones |
+| 17 | [ORM en Aplicación](17-orm-aplicacion/) | Uso práctico de ORM |
 | 99 | [Proyecto Integrador](99-integrador/) | Proyecto final |
 
 ## Estructura

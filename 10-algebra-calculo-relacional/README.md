@@ -282,6 +282,5 @@ SQL:
 - Ramakrishnan, R. & Gehrke, J. *Database Management Systems*, 3rd ed.,
   McGraw-Hill (capítulo 4: "Relational Algebra and Calculus", esquema
   Sailors-Boats-Reserves).
-- UBC CPSC 304 — *Exercises on Relational Algebra and Datalog, Part I*
-  (Laks V.S. Lakshmanan):
-  <https://www.cs.ubc.ca/~laks/cpsc304/RA-Datalog-Tutorial%20-%20Sol.pdf>
+- [UBC CPSC 304 — *Exercises on Relational Algebra and Datalog, Part I*](https://www.cs.ubc.ca/~laks/cpsc304/RA-Datalog-Tutorial%20-%20Sol.pdf)
+  (Laks V.S. Lakshmanan).

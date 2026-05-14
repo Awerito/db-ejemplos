@@ -230,12 +230,8 @@ deben ejecutarse sin error sobre tu instancia con datos de prueba.
 
 ### **Fuentes**
 
-- Explore Database — *Relational algebra solved exercises* (esquema
-  passenger/agency/flight/booking):
-  <https://www.exploredatabase.com/2020/04/relational-algebra-in-database-solved-exercise.html>
-- Stony Brook CSE 532 — *Relational Algebra and SQL* (cap. 5):
-  <https://www3.cs.stonybrook.edu/~kifer/Courses/cse532/slides/ch5.pdf>
-- ULB INFO-H-417 — *Translation from SQL into the relational algebra*:
-  <https://cs.ulb.ac.be/public/_media/teaching/infoh417/01_-_sql2alg-sol-slides.pdf>
-- UC Berkeley CS 186 — *Relational Algebra notes*:
-  <https://cs186berkeley.net/sp21/resources/static/notes/n05-RelAlg.pdf>
+- [Explore Database — *Relational algebra solved exercises*](https://www.exploredatabase.com/2020/04/relational-algebra-in-database-solved-exercise.html)
+  (esquema passenger/agency/flight/booking).
+- [Stony Brook CSE 532 — *Relational Algebra and SQL* (cap. 5)](https://www3.cs.stonybrook.edu/~kifer/Courses/cse532/slides/ch5.pdf).
+- [ULB INFO-H-417 — *Translation from SQL into the relational algebra*](https://cs.ulb.ac.be/public/_media/teaching/infoh417/01_-_sql2alg-sol-slides.pdf).
+- [UC Berkeley CS 186 — *Relational Algebra notes*](https://cs186berkeley.net/sp21/resources/static/notes/n05-RelAlg.pdf).

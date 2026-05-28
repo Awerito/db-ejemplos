@@ -1,6 +1,6 @@
 ## **Actividad en Clase: Práctica de Migraciones SQL**
 
-⏳ **Duración total: 120 minutos**
+⏳ **Duración total: 120 minutos**  
 🎯 **Objetivo:** Aplicar conocimientos sobre **migraciones SQL** mediante la
 planificación, ejecución y control manual de cambios estructurales sobre un
 esquema relacional existente.

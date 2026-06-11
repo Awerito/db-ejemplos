@@ -7,8 +7,7 @@
 - **Temas:** Migraciones - Funciones y triggers PL/pgSQL - Vistas - Datos de
   prueba - Consultas SQL
 
-**Entregas fuera de plazo no se consideran.** Se otorgan 10 minutos de gracia
-(hasta las 00:09 del miércoles) por si el envío va lento.
+**Entregas fuera de plazo no se consideran.**
 
 Podrán y deberían consultar al cliente (profesor) cuando existan dudas,
 pidiendo retroalimentación de avances, esto con la idea de formar la costumbre

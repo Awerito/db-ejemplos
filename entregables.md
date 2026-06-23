@@ -32,22 +32,22 @@ repo-github/
 
 ## Sección 1: Modelamiento
 
-- [ ] [Modelo Entidad-Relación](03-modelo-entidad-relacion/README.md): diagramas ER de los enunciados (entidades, atributos y relaciones).
-- [ ] [Modelo Relacional](04-modelo-relacional/README.md): conversión a MR de al menos 6 de los 12 MER, con claves primarias y foráneas.
-- [ ] [MER a MR con cardinalidad](05-mer-mr/README.md): diagramas relacionales de los 6 enunciados con PK, FK y tablas intermedias según 1:1, 1:N y N:N.
-- [ ] [Normalización](06-normalizacion/README.md): las 8 relaciones normalizadas hasta 3FN.
-- [ ] [Normalización avanzada](06-normalizacion/README-2.md): los 6 ejercicios normalizados hasta 3FN y modelados en Pony Editor.
+- [ ] [Modelo Entidad-Relación](https://github.com/Awerito/db-ejemplos/blob/master/03-modelo-entidad-relacion/README.md): diagramas ER de los enunciados (entidades, atributos y relaciones).
+- [ ] [Modelo Relacional](https://github.com/Awerito/db-ejemplos/blob/master/04-modelo-relacional/README.md): conversión a MR de al menos 6 de los 12 MER, con claves primarias y foráneas.
+- [ ] [MER a MR con cardinalidad](https://github.com/Awerito/db-ejemplos/blob/master/05-mer-mr/README.md): diagramas relacionales de los 6 enunciados con PK, FK y tablas intermedias según 1:1, 1:N y N:N.
+- [ ] [Normalización](https://github.com/Awerito/db-ejemplos/blob/master/06-normalizacion/README.md): las 8 relaciones normalizadas hasta 3FN.
+- [ ] [Normalización avanzada](https://github.com/Awerito/db-ejemplos/blob/master/06-normalizacion/README-2.md): los 6 ejercicios normalizados hasta 3FN y modelados en Pony Editor.
 
 ## Sección 2: SQL
 
-- [ ] [Creación de tablas (DDL)](07-sql-creacion-tablas/README.md): archivo `modelo.sql` con todas las sentencias `CREATE TABLE`.
-- [ ] [CRUD y vistas](08-sql-crud/README.md): consultas `SELECT`, `UPDATE`, `DELETE` y la vista `vista_global_academica`.
-- [ ] [CRUD biblioteca](09-sql-biblioteca/README.md): consultas `SELECT`, `UPDATE`, `DELETE` y la vista `vista_global_biblioteca`.
-- [ ] [Migraciones](13-migrations/README.md): carpeta `migraciones/` con los archivos 001 a 009, sus rollbacks y los registros en `schema_migrations`.
-- [ ] [Triggers y funciones](14-triggers-funciones/README.md): modelo de las tablas `jugador`, `partido` y `elo_historial`, la función `auditar_elo()` y el trigger de auditoría.
+- [ ] [Creación de tablas (DDL)](https://github.com/Awerito/db-ejemplos/blob/master/07-sql-creacion-tablas/README.md): archivo `modelo.sql` con todas las sentencias `CREATE TABLE`.
+- [ ] [CRUD y vistas](https://github.com/Awerito/db-ejemplos/blob/master/08-sql-crud/README.md): consultas `SELECT`, `UPDATE`, `DELETE` y la vista `vista_global_academica`.
+- [ ] [CRUD biblioteca](https://github.com/Awerito/db-ejemplos/blob/master/09-sql-biblioteca/README.md): consultas `SELECT`, `UPDATE`, `DELETE` y la vista `vista_global_biblioteca`.
+- [ ] [Migraciones](https://github.com/Awerito/db-ejemplos/blob/master/13-migrations/README.md): carpeta `migraciones/` con los archivos 001 a 009, sus rollbacks y los registros en `schema_migrations`.
+- [ ] [Triggers y funciones](https://github.com/Awerito/db-ejemplos/blob/master/14-triggers-funciones/README.md): modelo de las tablas `jugador`, `partido` y `elo_historial`, la función `auditar_elo()` y el trigger de auditoría.
 
 ## Sección 3: Álgebra relacional
 
-- [ ] [Álgebra y cálculo relacional](10-algebra-calculo-relacional/README.md): por cada ejercicio, expresión de álgebra relacional, cálculo relacional y consulta SQL sobre Sailors-Boats-Reserves.
-- [ ] [Traducciones SQL y álgebra](11-sql-algebra-traducciones/README.md): archivo `traducciones.md` con los 10 ejercicios (5 SQL a álgebra y 5 álgebra a SQL).
-- [ ] [Traducciones SQL y álgebra (Set 2)](11-sql-algebra-traducciones/README-2.md): los 40 ejercicios (20 SQL a álgebra y 20 álgebra a SQL) sobre los 4 mini-esquemas.
+- [ ] [Álgebra y cálculo relacional](https://github.com/Awerito/db-ejemplos/blob/master/10-algebra-calculo-relacional/README.md): por cada ejercicio, expresión de álgebra relacional, cálculo relacional y consulta SQL sobre Sailors-Boats-Reserves.
+- [ ] [Traducciones SQL y álgebra](https://github.com/Awerito/db-ejemplos/blob/master/11-sql-algebra-traducciones/README.md): archivo `traducciones.md` con los 10 ejercicios (5 SQL a álgebra y 5 álgebra a SQL).
+- [ ] [Traducciones SQL y álgebra (Set 2)](https://github.com/Awerito/db-ejemplos/blob/master/11-sql-algebra-traducciones/README-2.md): los 40 ejercicios (20 SQL a álgebra y 20 álgebra a SQL) sobre los 4 mini-esquemas.
